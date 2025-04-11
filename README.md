@@ -1,29 +1,28 @@
-Sales Data Cleaning and Exploratory Analysis
-
-Overview
+## 🛍️ Sales Data Cleanup & Insights Hunt 🌟
 This project focuses on cleaning and analyzing a sales dataset to prepare it for further insights and business applications. The dataset contains detailed information about sales transactions, including order details, customer information, product categories, and geographic data. The primary goal is to clean the data, handle inconsistencies, and perform exploratory data analysis (EDA) to uncover patterns and trends in sales performance.
 
-Project Objectives
-Data Cleaning: Remove redundant columns, handle missing values, ensure proper data types, and eliminate duplicates to create a reliable dataset.
-Exploratory Data Analysis (EDA): Analyze sales trends across regions, categories, and time periods to identify key insights, such as top-performing regions or product categories.
-Data Preparation: Transform raw data into a structured format suitable for advanced analysis or visualization.
+# 🛠️ Tools I Used
+Python 🐍
+Pandas 📋
+NumPy 🔢
+Matplotlib & Seaborn 📊
 
-Dataset
-The dataset (train.csv) contains 9,800 entries with 18 columns, including:
+# 📋 My Workflow
+Here’s how I tackled this project:
 
-Order Details: Order ID, Order Date, Ship Date, Ship Mode
-Customer Information: Customer ID, Customer Name, Segment
-Geographic Data: Country, City, State, Region, Postal Code
-Product Information: Product ID, Category, Sub-Category, Product Name
-Sales Metrics: Sales (in USD)
+1️⃣ Loaded the sales dataset with 9,800 rows of orders, customers, and products.
 
-Key Features
-Time-based Analysis: Order and shipping dates allow for temporal analysis.
-Geographic Scope: Sales data spans multiple U.S. cities and states.
-Product Categories: Includes Furniture, Office Supplies, and Technology.
-Technologies Used
-Python: Core programming language for data processing and analysis.
-Pandas: For data manipulation and cleaning.
-NumPy: For numerical operations.
-Matplotlib & Seaborn: For data visualization (e.g., heatmaps).
-Jupyter Notebook: For interactive development and documentation.
+2️⃣ Checked the data’s structure and peeked at random samples to get the vibe.
+
+3️⃣ Dropped the Postal Code column since it wasn’t adding much value.
+
+4️⃣ Made sure there were no duplicates (clean slate, woo!).
+
+5️⃣ Fixed Order Date and Ship Date to proper datetime formats and calculated shipping days.
+
+6️⃣ Added columns for day, month, and year of orders to dig into trends.
+
+7️⃣ Created a heatmap to explore sales by product category and region.
+
+# 🚀 What’s Next?
+Inshallah, I’m ready to level up Soon, I’ll build a super cool dashboard with Power BI to make these insights pop with interactive visuals!
